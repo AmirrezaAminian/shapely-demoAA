@@ -1,0 +1,303 @@
+/* // Small devices (landscape phones, 576px and up) */
+
+@media only screen and (max-width:75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width:56.25em) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media only screen and (max-width:37.5em) {
+    html {
+        font-size: 45.5%;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+
+
+
+
+    .option-text {
+        padding-top: 50px;
+    }
+
+    .download h1 {
+        font-size: 3.9vw !important;
+    }
+
+    .info-text {
+        margin-top: 5rem;
+    }
+
+    .option-image {
+        height: 50%;
+    }
+}
+
+@media (max-width:450px) {
+
+
+    .blog {
+        height: 700px;
+    }
+
+    .info {
+        height: 700;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+    .blog-text h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .blog-text button {
+        margin-top: 30px;
+    }
+
+    .blog-button {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .info-text h1 {
+        font-size: 40px;
+    }
+
+    .info-text p {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .projects-images {
+        justify-content: space-between;
+    }
+
+    .image-overlay {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .download h1 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .option-text button {
+        margin-bottom: 30px;
+    }
+
+
+    .option-image {
+        height: auto;
+    }
+
+    .projects {
+        margin-top: -35rem;
+    }
+
+    .projects-text {
+        margin-top: -45rem;
+        padding-bottom: 20px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .burger {
+        display: none !important;
+    }
+
+    .header-right {
+        display: block;
+    }
+
+    .header-right ul li a {
+        font-size: 12px;
+    }
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .header-right ul li a {
+        font-size: 14px;
+    }
+}
+
+
+
+
+@media (max-width: 992px) {
+
+    .info-text p {
+        line-height: 1.5em;
+        padding: 0 15px;
+        margin-bottom: 20px;
+    }
+
+    .option-text p {
+        padding: 0;
+        line-height: 20px;
+        margin-bottom: 30px;
+        padding: 0 15px;
+    }
+
+    .projects-images {
+        flex-wrap: wrap;
+
+    }
+
+    .download {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .footer a {
+        display: none;
+    }
+}
+
+
+
+
+/* max-width:1000px */
+
+
+@media only screen and (max-width:1000px) {
+    .seo {
+        flex-direction: column;
+        padding: 8rem;
+    }
+
+    .seo-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .seo-right {
+        width: 100%;
+        margin-right: 0;
+
+    }
+
+    .porfolio {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 8rem;
+    }
+
+    .porfolio-right {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .porfolio-left {
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 370px) {
+
+    .projects {
+        overflow: hidden;
+    }
+
+    .images {
+        width: 100%;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+
+    .header-left {
+        padding-left: 10px;
+    }
+
+    .header-left h2 {
+        font-size: 16px;
+
+
+    }
+
+    .porfolio-left-text h2 {
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+
+    .info-text h1 {
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .projects-text {
+        margin-top: -82rem;
+        /* padding-bottom: 20px; */
+    }
+
+    .option-text {
+        padding-bottom: 100px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .footer-info p {
+        font-size: 12px;
+
+    }
+}
+
+@media (max-width: 900px) {
+
+    .footer  {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+
+    }
+
+     .footer-info{
+         margin-top: 15px;
+         
+     }
+     
+
+     .footer-info{
+         margin-bottom: 20px;
+     }
+
+}
